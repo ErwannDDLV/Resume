@@ -1,0 +1,52 @@
+/* Your card CSS code here */
+.card {
+  background-size: cover;
+  padding: 8px;
+  position: relative;
+  align-items: center;
+  border-radius: 10px;
+  height: 300px;
+  width: 100%;
+  margin: 10px;
+  display: flex;
+}
+
+.card-category {
+  color: white;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  border: 5px;
+  padding: 8px;
+  flex: 1 0 auto;
+}
+
+.card-user {
+  position: absolute;
+  top: 20px;
+  right: 12px;
+  border: 5px;
+  padding: 8px;
+  flex: 0 0 30%;
+}
+
+.card-description {
+  color: white;
+  position: absolute;
+  bottom: 3px;
+  left: 3px;
+  border: 5px;
+  padding: 8px;
+  flex: 1 0 auto;
+}
+
+.card-link {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 2;
+    background: black;
+    opacity: 0;
+}
+Contact GitHub API Training Shop Blog About
