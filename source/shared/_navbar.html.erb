@@ -1,25 +1,19 @@
 <div class="navbar-wagon">
   <!-- Logo -->
-  <% link_to "/", class: "navbar-wagon-brand" do %>
-    <%= image_tag "lewagon.png" %>
-  <% end %>
+  <img src="images/PhotoID.png" class="avatar-square ">
 
   <!-- Right Navigation -->
   <div class="navbar-wagon-right hidden-xs hidden-sm">
 
     <!-- Search form -->
-    <form action="" class="navbar-wagon-search">
-      <input type="text" class="navbar-wagon-search-input" placeholder="Search something">
-      <button type="submit" class="navbar-wagon-search-btn">
-        <i class="fa fa-search"></i>
-      </button>
-    </form>
+    <%= link_to 'Acceuil', '/', class: "navbar-wagon-item navbar-wagon-link" %>
 
     <!-- Text link -->
-    <a href="https://www.lewagon.com" class="navbar-wagon-item navbar-wagon-link">Wagon</a>
+    <%= link_to 'Mon CV', 'resume.html', class: "navbar-wagon-item navbar-wagon-link" %>
 
     <!-- Text link -->
-    <a href="" class="navbar-wagon-item navbar-wagon-link">Team</a>
+    <%= link_to 'A propos', 'a_propos.html', class: "navbar-wagon-item navbar-wagon-link" %>
+
 
     <!-- Notification link-->
     <a href="" class="navbar-wagon-item navbar-wagon-link">
@@ -30,11 +24,9 @@
     </a>
 
     <!-- Profile picture and dropdown -->
-    <%= image_tag "PhotoID.png", class: "avatar" %>
 
     <div class="navbar-wagon-item">
       <div class="dropdown">
-        <img src="images/PhotoID.png" class="avatar " id="navbar-wagon-menu" data-toggle="dropdown">
         <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
           <li><a href="#">Profile</a></li>
           <li><a href="#">Dashboard</a></li>
