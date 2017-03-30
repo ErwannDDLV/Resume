@@ -25,5 +25,12 @@
 }
 
 .bg-footer {
-  background: #5ea3de;
+  background: black;
+}
+
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  position: relative;
 }
