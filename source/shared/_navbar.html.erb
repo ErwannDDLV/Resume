@@ -1,6 +1,10 @@
 <div class="navbar-wagon">
   <!-- Logo -->
-  <img src="images/ProfilWagon.png" class="avatar-square ">
+  <div class="navbar-wagon-left">
+    <img src="images/ProfilWagon.png" class="avatar-square ">
+
+    <%= link_to 'Contact', 'contact.html', class: "navbar-wagon-item navbar-wagon-link" %>
+  </div>
 
   <!-- Right Navigation -->
   <div class="navbar-wagon-right hidden-xs hidden-sm">
@@ -9,10 +13,11 @@
     <%= link_to 'Acceuil', '/', class: "navbar-wagon-item navbar-wagon-link" %>
 
     <!-- Text link -->
-    <%= link_to 'Mon CV', 'resume.html', class: "navbar-wagon-item navbar-wagon-link" %>
+    <%= link_to 'A propos', 'a_propos.html', class: "navbar-wagon-item navbar-wagon-link" %>
 
     <!-- Text link -->
-    <%= link_to 'A propos', 'a_propos.html', class: "navbar-wagon-item navbar-wagon-link" %>
+    <%= link_to 'Mon CV', 'resume.html', class: "navbar-wagon-item navbar-wagon-link" %>
+
 
 
     <!-- Notification link-->
@@ -29,8 +34,8 @@
       <div class="dropdown">
         <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
           <li><a href="/">Accueil</a></li>
-          <li><a href="resume.html">Mon CV</a></li>
           <li><a href="a_propos.html">A propos</a></li>
+          <li><a href="resume.html">Mon CV</a></li>
         </ul>
       </div>
     </div>
@@ -45,8 +50,8 @@
       <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
       <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
         <li><a href="/">Accueil</a></li>
-          <li><a href="resume.html">Mon CV</a></li>
-          <li><a href="a_propos.html">A propos</a></li>
+        <li><a href="a_propos.html">A propos</a></li>
+        <li><a href="resume.html">Mon CV</a></li>
       </ul>
     </div>
   </div>

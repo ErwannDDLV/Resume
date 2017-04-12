@@ -24,6 +24,12 @@
   width: 50px;
 }
 
+.navbar-wagon-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 /* Navbar right section (with form, links, button) */
 .navbar-wagon-right {
   display: flex;
