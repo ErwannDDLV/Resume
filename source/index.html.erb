@@ -3,11 +3,12 @@
   <!--   <img src="images/Hoguette.jpg"> -->
     <div class="banner-content">
       <div class="welcome text-center padded">
-        <h1>Welcome to My Online Profil</h1>
-        <p>It's my first alone project after 9 weeks <%= link_to "@ Le Wagon Bordeaux", 'http://www.lewagon.com' %>
+        <h1 style="margin-bottom:22px;">Bienvenue sur mon profil en ligne</h1>
+        <p>Voilà mon premier projet après 9 semaines</p>
+        <p class="link_wagon"><%= link_to "@ Le Wagon Bordeaux", 'http://www.lewagon.com'%>
         </p>
-        <p>I just started it ! We are 2017, March the 15th and it's my wife's Birthday !</p>
-        <a class="btn btn-primary btn-lg">GET IT</a>
+        <p>Je viens de le commencer, le 15 mars, jour de l'anniversaire de ma femme !</p>
+        <%= link_to 'Viens voir', 'resume.html', class: "btn btn-primary btn-lg" %>
       </div>
     </div>
   </div>

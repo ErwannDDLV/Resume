@@ -34,3 +34,22 @@
   height: 100%;
   position: relative;
 }
+
+.link_wagon {
+  font-size: 10px;
+  text-decoration: none;
+  a {
+    color: black;
+    text-decoration: none;
+    -webkit-transition: 0.2s;
+  }
+  :hover {
+    -webkit-transition: 0.2s;
+    background-color: $red;
+    color: #ffffff;
+    padding: 8px 6px;
+    border-radius: 5px;
+    padding: 12px;
+    margin: 0 3px;
+  }
+}

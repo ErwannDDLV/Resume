@@ -1,8 +1,26 @@
-- company:
-  activity:
-  city:
-  logo:
-  date-in:
-  date-out:
-  job:
-  functions:
+- company: Agence Phénomène
+  activity: Agence de communication evenementielle
+  city: Suresnes
+  logo: Phenomene.png
+  date_in: 01-2009
+  date_out: 01-2012
+  status: Chargé de Production
+  functions: blablabla
+
+- company: Numéro 21
+  activity: Agence de communication evenementielle
+  city: Suresnes
+  logo: Numero_21.png
+  date_in: 01-2009
+  date_out: 01-2012
+  status: Chargé de Production
+  functions: blablabla
+
+- company: Eclectic Entreprise
+  activity: Prod audio
+  city: Boulogne-Billancourt
+  logo: Eclectic_entreprise.png
+  date_in: 01-2009
+  date_out: 01-2012
+  status: Chargé de Production
+  functions: blablabla
