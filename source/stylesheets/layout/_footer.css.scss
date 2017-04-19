@@ -15,71 +15,75 @@
     font-size: 30px;
     padding-right: 20px;
     padding-left: 20px;
-  };
-
-  &_linkedin {
     &:hover {
-      a {
-        background-color: white;
-        color: #0077b5;
-        text-decoration: none;
-        padding: 0px;
-        margin-right: 20px;
-        margin-left: 20px;
-        font-size: 30px;
-      }
-    }
-  }
-
-  &_github {
-    &:hover {
-      a {
-        color: #3F4347;
-        text-decoration: none;
-      }
-    }
-  }
-
-  &_facebook {
-    &:hover {
-      a {
-        color: #3b5998;
-        text-decoration: none;
-      }
-    }
-  }
-
-  &_twitter {
-    &:hover {
-      a {
-        color: #1da1f2;
-        text-decoration: none;
-      }
-    }
-  }
-
-  &_youtube {
-    &:hover {
-      a {
-        color: #e62117;
-        text-decoration: none;
-      }
-    }
-  }
-
-  &_spotify {
-    &:hover {
-      a {
-        color: #2ebd59;
-        text-decoration: none;
-      }
+      color: $red;
+      text-decoration: none;
     }
   }
 }
-
 
 .list-inline > li {
   display: inline-block;
   padding: 10px;
   height: 30px;
 }
+
+  // &_linkedin {
+  //   &:hover {
+  //     a {
+  //       background-color: white;
+  //       color: #0077b5;
+  //       text-decoration: none;
+  //       padding: 0px;
+  //       margin-right: 20px;
+  //       margin-left: 20px;
+  //       font-size: 30px;
+  //     }
+  //   }
+  // }
+
+  // &_github {
+  //   &:hover {
+  //     a {
+  //       color: #3F4347;
+  //       text-decoration: none;
+  //     }
+  //   }
+  // }
+
+  // &_facebook {
+  //   &:hover {
+  //     a {
+  //       color: #3b5998;
+  //       text-decoration: none;
+  //     }
+  //   }
+  // }
+
+  // &_twitter {
+  //   &:hover {
+  //     a {
+  //       color: #1da1f2;
+  //       text-decoration: none;
+  //     }
+  //   }
+  // }
+
+  // &_youtube {
+  //   &:hover {
+  //     a {
+  //       color: #e62117;
+  //       text-decoration: none;
+  //     }
+  //   }
+  // }
+
+  // &_spotify {
+  //   &:hover {
+  //     a {
+  //       color: #2ebd59;
+  //       text-decoration: none;
+  //     }
+  //   }
+  // }
+

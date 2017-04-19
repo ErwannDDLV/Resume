@@ -1,26 +1,122 @@
-- company: Agence Phénomène
-  activity: Agence de communication evenementielle
+- company: LE WAGON
+  website: https://www.lewagon.com/fr
+  activity: Formation (Bootcamp)
+  city: Bordeaux
+  logo: lewagon.png
+  date_in: janvier 2017
+  date_out: mars 2017
+  status: Etudiant
+  functions: "Programme FullStack web Ruby on Rails - Formation développeur web 9 semaines :
+  <br> - Apprentissage de Ruby, HTML5, CSS3, JavaScript,
+  <br> - Ingénierie logicielle et architecture de base de données
+  <br> - Collaboration sur Github
+  <br> - Flux de travail technique utilisé pour les startups
+  <br> - Des outils comme Heroku, pour déployer des applications et intégrer des fonctionnalités avancées (paiement, géolocalisation, mailing, recherche, etc ...)"
+
+- company: AGENCE PHENOMENE
+  website: http://www.phenomene.com
+  activity: Agence conseil en communication
   city: Suresnes
   logo: Phenomene.png
-  date_in: 01-2009
-  date_out: 01-2012
-  status: Chargé de Production
-  functions: blablabla
+  date_in: mai 2016
+  date_out: mai 2016
+  status: Chargé de Production Vidéo Freelance
+  functions: "J'ai géré les productions audiovisuels motion-design
+  <br> - Etablissement des budgets et des recommandations commerciales
+  <br> - Suivi de clientèle
+  <br> - Recrutement et management des équipes de post-production"
 
-- company: Numéro 21
-  activity: Agence de communication evenementielle
-  city: Suresnes
-  logo: Numero_21.png
-  date_in: 01-2009
-  date_out: 01-2012
-  status: Chargé de Production
-  functions: blablabla
+- company: JPB AUDIOVISUEL
+  website: http://www.jpb-audiovisuel.fr/
+  activity: Prestataire Technique
+  city: Ile de France
+  logo: JPB.png
+  date_in: décembre 2015
+  date_out: mai 2016
+  status: Freelance
+  functions: "Gestion et suivi de projet
+  <br>
+  <br>"
 
-- company: Eclectic Entreprise
-  activity: Prod audio
+- company: CREA NOSTRA
+  website: http://www.creanostra.fr/
+  activity: Production Audiovisuelle
+  city: Paris
+  logo: Crea_Nostra.png
+  date_in: septembre 2015
+  date_out: novembre 2015
+  status: Chef de projet / Responsable de Production Vidéo
+  functions: "Je gère les projets audiovisuels de l’entreprise : Films institutionnels, motion-design, reportages
+  <br> - Etablissement des budgets et des recommandations commerciales
+  <br> - Suivi de clientèle
+  <br> - Pilotage de la partie administrative (réponses aux appels d’offre, devis, contrats)
+  <br> - Recrutement et management des équipes de production, tournage et post-production
+  <br> - Organisation de la logistique opérationnelle des tournages et de la post-production"
+
+- company: ECLECTIC ENTREPRISE
+  website: http://www.eclecticentreprise.com/
+  activity: Production audiovisuelle
   city: Boulogne-Billancourt
   logo: Eclectic_entreprise.png
-  date_in: 01-2009
-  date_out: 01-2012
+  date_in: 2013
+  date_out: 2015
+  status: Chef de Projet / Chargé de Production
+  functions: "J’ai géré les projets audiovisuels corporate de l’entreprise pour la marque ECLECTIC ENTREPRISE : Films institutionnels, films de marque, films cartes de visite
+  <br> - Etablissement des budgets (150K€ / an) et pilotage de la partie administrative (réponses aux appels d’offre, devis, contrats)
+  <br> - Recrutement et management des équipes de production, tournage et post-production
+  <br> - Organisation de la logistique opérationnelle des tournages et de la post-production"
+
+- company: NUMERO 21
+  website: http://numero21.com/
+  activity: Agence de communication evenementielle
+  city: Paris
+  logo: Numero_21.png
+  date_in: mars 2012
+  date_out: juin 2012
   status: Chargé de Production
-  functions: blablabla
+  functions: "J’ai participé à l’organisation d’un RoadShow pour SYNERCIEL d’EDF (5 dates dans 5 villes de France)
+  <br> - Sélection des prestataires pour les animations
+  <br> - Contrôle et suivi de la mise en place des stands des exposants
+  <br> - Validation des sites événementiels adaptés"
+
+- company: AGENCE PHENOMENE
+  website: http://www.phenomene.com
+  activity: Agence conseil en communication
+  city: Suresnes
+  logo: Phenomene.png
+  date_in: mars 2007
+  date_out: janvier 2012
+  status: Chargé de Production
+  functions: "J’ai géré les projets événementiels et audiovisuels de l’entreprise (15 par an)
+  <br> - Congrès, séminaires, soirées (1000 pers) - clientèle institutionnelle et privée
+  <br> - Films reveal produit, films bilan de marque
+  <br> - Etablissement des budgets et gestion de la partie administrative (appels d’offre, devis, contrats) (500K€ / an)
+  <br> - Recrutement et management des équipes de production, prestataires techniques et logistiques, équipes de tournages
+  <br> - Organisation de la logistique opérationnelle des événements, des tournages et de la post-production"
+
+- company: ADEXYA
+  website:
+  activity: Agence conseil en communication
+  city: Paris
+  logo: https://s-media-cache-ak0.pinimg.com/736x/a7/18/9f/a7189feed86d508542c788109782ecac.jpg
+  date_in: octobre 2006
+  date_out: janvier 2007
+  status: Chargé de Production / Régisseur
+  functions: "J’ai organisé un séminaire d’une semaine à Cannes, Hôtel Martinez - 400 participants
+  <br> - Gestion des plannings logistiques (transfert aéroport-hôtel, accueil, repas)
+  <br> - Organisation du dîner de Gala, pilotage de l’équipe traiteur, élaboration d’un quizz et remise des prix"
+
+- company: Productions TV
+  website:
+  activity: Production Audiovisuelle
+  city: Paris
+  logo: http://www.uclan.ac.uk/courses/assets/images/tv_production_teaser.jpg
+  date_in: 2001
+  date_out: 2004
+  status: Chargé de Production / Régisseur
+  functions: "MTV FRANCE - 2004-2005
+  <br> . J’ai participé à la rédaction, au suivi de la réalisation et de la post-production pour les émissions « MTV Hitlists » et « MTV French Night »
+  <br> A PRIME GROUP pour FRANCE TV - 2003-2004
+  <br> . Régisseur général « La Cible » et « Le Bateau Livre »
+  <br> P.PROD pour FRANCE TV - 2001-2003
+  <br> . J’ai participé à la production des sujets (tournages, post-production) et à la régie logistique du plateau pour les émissions « Union Libre » et « Douce France »"

@@ -1,24 +1,31 @@
 <div class="container">
   <div class="row">
     <% data.jobs.each do |job| %>
-      <div class="col-lg-12 col-sm-6 col-xs-12">
-        <div class="card">
 
-            <div class="card-logo">
-              <%= image_tag job.logo, {class: "job_image"} %>
-            </div>
-            <div class="card-company"><%= job.company%></div>
-
-          <div class=card-description>
-            <p><%= job.activity %></p>
-            <p><%= job.city %></p>
-            <p>de <%= job.date_in %> au <%= job.date_out %></p>
-            <p><%= job.status %></p>
-            <p><%= job.functions %></p>
-
+        <div class="blog-card">
+          <div class="photo"><%= image_tag job.logo, {class: "card-logo"} %></div>
+          <ul class="details">
+            <li class="author"><a href=<%=job.website%>><%= job.company%></a></li>
+            <li class="date"><%= job.date_in %> - <%= job.date_out %></li>
+            <!-- <li class="tags">
+              <ul>
+                <li><a href="#">Learn</a></li>
+                <li><a href="#">Code</a></li>
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+              </ul>
+            </li> -->
+          </ul>
+          <div class="description">
+            <h1><%= job.status %></h1>
+            <h2><%= job.activity %> (<%= job.city %>)</h2>
+            <p class="comment more"><%= job.functions %></p>
           </div>
         </div>
-      </div>
+
+
+
+
     <% end %>
   </div>
 </div>
