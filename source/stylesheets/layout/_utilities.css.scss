@@ -28,11 +28,16 @@
   background: black;
 }
 
-.wrapper {
+#wrapper {
   min-height: 100%;
   height: auto !important;
   height: 100%;
   position: relative;
+}
+
+#content {
+  padding-bottom: 65px; /* Height of the footer element */
+  padding-top: 15px;
 }
 
 .link_wagon {

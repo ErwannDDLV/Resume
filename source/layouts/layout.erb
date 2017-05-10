@@ -29,9 +29,13 @@
 
   <body class="<%= page_classes %>">
 
-    <%= partial "shared/navbar" %>
-    <%= yield %>
-    <%= partial "shared/footer" %>
+    <div id="wrapper">
+      <%= partial "shared/navbar" %>
+      <div id="content">
+        <%= yield %>
+      </div>
+      <%= partial "shared/footer" %>
+    </div>
 
   </body>
 </html>
