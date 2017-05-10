@@ -6,13 +6,12 @@
   width: 50px;
   border-radius: 50%;
 }
-.avatar-bordered {
-  width: 30px;
-  border-radius: 50%;
+.avatar-bordered-bg {
+  width: 130px;
   box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-  border: white 1px solid;
+  border: grey 1px solid;
 }
-.avatar-square {
+.avatar-rounded {
   width: 60px;
   box-shadow: 0 1px 2px rgba(255,255,255,0.2);
   border-radius: 50%;

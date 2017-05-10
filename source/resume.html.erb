@@ -1,31 +1,39 @@
 <div class="container">
   <div class="row">
     <% data.jobs.each do |job| %>
+      <div class="col-xs-12 col-lg-6 col-lg-6-offset-1">
+        <div class="card-container">
 
-        <div class="blog-card">
-          <div class="photo"><%= image_tag job.logo, {class: "card-logo"} %></div>
-          <ul class="details">
-            <li class="author"><a href=<%=job.website%>><%= job.company%></a></li>
-            <li class="date"><%= job.date_in %> - <%= job.date_out %></li>
-            <!-- <li class="tags">
-              <ul>
-                <li><a href="#">Learn</a></li>
-                <li><a href="#">Code</a></li>
-                <li><a href="#">HTML</a></li>
-                <li><a href="#">CSS</a></li>
-              </ul>
-            </li> -->
-          </ul>
-          <div class="description">
-            <h1><%= job.status %></h1>
-            <h2><%= job.activity %> (<%= job.city %>)</h2>
-            <p class="comment more"><%= job.functions %></p>
+          <div class="card-left">
+            <div class="card-logo">
+              <a href=<%=job.website%>><%= image_tag job.logo, {class: "job_image"} %></a>
+            </div>
+            <div class="card-subtitle">
+              <div>
+                <h2><%= job.activity %></h2> <h2>(<%= job.city %>)</h2>
+              </div>
+              <p><%= job.date_in %> - <%= job.date_out %></p>
+              <p></p>
+            </div>
           </div>
+
+          <div class="card-right">
+
+            <div class="card-company">
+              <%= job.company%>
+            </div>
+
+            <div class="card-title">
+              <h1><%= job.status %></h1>
+            </div>
+
+            <div>
+              <p><%= job.functions %></p>
+            </div>
+          </div>
+
         </div>
-
-
-
-
+      </div>
     <% end %>
   </div>
 </div>
