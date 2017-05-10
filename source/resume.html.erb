@@ -6,7 +6,9 @@
 
           <div class="card-left">
             <div class="card-logo">
-              <a href=<%=job.website%>><%= image_tag job.logo, {class: "job_image"} %></a>
+              <% link_to job.website, class: "card-logo" do %>
+                <%= image_tag job.logo, class: "job_image" %>
+              <% end %>
             </div>
             <div class="card-subtitle">
               <div>

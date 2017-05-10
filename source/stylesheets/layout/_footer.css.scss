@@ -8,20 +8,20 @@
   box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
   transition: all 0.3s ease;
   align-items: center;
-  justify-content: space-around;
-  background-color: black;
+  justify-content: center;
+  background-color: $black;
   right: 0;
   margin-top: 5px;
   padding: 1rem;
   a {
     transition: all 0.5s ease;
     text-decoration: none;
-    color: grey;
+    color: #A6A6A6;
     font-size: 30px;
     padding-right: 20px;
     padding-left: 20px;
     &:hover {
-      color: white;
+      color: $brand-color;
       text-decoration: none;
       cursor: pointer;
     }

@@ -39,6 +39,7 @@
 #content {
   padding-bottom: 65px; /* Height of the footer element */
   padding-top: 15px;
+  min-height:80%;
 }
 
 .link_wagon {
@@ -51,8 +52,7 @@
   }
   :hover {
     -webkit-transition: 0.2s;
-    background-color: $red;
-    color: #ffffff;
+    color: $red;
     padding: 8px 6px;
     border-radius: 5px;
     padding: 10px;
