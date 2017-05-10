@@ -1,41 +1,87 @@
 /* Your card CSS code here */
-.card {
-  background-size: cover;
-  padding: 8px;
-  position: relative;
-  align-items: center;
-  border-radius: 10px;
-  height: 500px;
+
+.card-container {
+  min-height: 400px;
   width: 100%;
-  margin: 10px;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  padding: 12px;
   display: flex;
+  position: relative;
+  justify-content: center;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  background-color: white;
+}
+
+.card-left {
+  margin: 5px;
+  padding: 5px;
+  min-width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.card-logo {
+  width: 150px;
+  margin-bottom: 10px;
+  &:hover {
+    cursor: pointer;
+    opacity: 0.6;
+  }
+  // border: grey 1px solid;
+}
+
+.card-subtitle {
+  position: relative;
+  text-align: center;
+  h2 {
+    font-size: 17px;
+    font-weight: bold;
+    margin: 3px 0;
+  }
+  p {
+    font-size: 15px;
+    margin: 8px;
+  };
+}
+
+.card-right {
+  margin: 5px;
+  padding: 5px;
+  min-width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-company {
+  width: 100%;
+  margin-top: 10px;
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: 1,5px;
 }
 
 .card-title {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: absolute;
-  top: 1px;
+  justify-content: space-around;
+  text-align: center;
+  position: relative;
   width: 100%;
+  h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0;
+  };
 }
 
-.card-subtitle {
-  position: absolute;
-  top: 60px;
-}
 
-.card-company {
-  color: black;
-  flex: 1 0 auto;
-  font-size: 30px;
-  font-weight: bold;
-}
-
-.card-logo {
-  height: 130px;
-  width: 130px;
-}
 
 
 .card-description {
