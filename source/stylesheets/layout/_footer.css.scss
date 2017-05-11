@@ -24,7 +24,7 @@
     transition: all 0.5s ease;
     text-decoration: none;
     color: #A6A6A6;
-    font-size: 30px;
+    font-size: 33px;
     padding-right: 20px;
     padding-left: 20px;
     &:hover {
@@ -43,26 +43,11 @@
   }
 }
 
-.linkedin {
-  :hover{
-    color: #0077b5;
-  }
-}
+.fa-stack        .fa { color: #A6A6A6; }
+.fa-stack        .fa.fa-square { color: $black; }
 
-.github {
-  :hover {
-    color: #3F4347;
-  }
-}
-
-.facebook {
-  :hover {
-    color: #3b5998;
-  }
-}
-
-.twitter {
-  :hover {
-    color: #1da1f2;
-  }
-}
+.fa-stack:hover  .fa.fa-square { color: white; transition: all 0.5s ease;}
+.fa-stack:hover  .fa.fa-linkedin-square { color: #0077b5; transition: all 0.5s ease;}
+.fa-stack:hover  .fa.fa-facebook-square { color: #3B5998; transition: all 0.5s ease;}
+.fa-stack:hover  .fa.fa-twitter-square { color: #1da1f3; transition: all 0.5s ease;}
+.fa-stack:hover  .fa.fa-github-square { color: #171515; transition: all 0.5s ease;}
