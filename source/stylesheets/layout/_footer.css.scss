@@ -8,11 +8,18 @@
   box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
   transition: all 0.3s ease;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   background-color: $black;
   right: 0;
   margin-top: 5px;
   padding: 1rem;
+}
+
+.social-links {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 0 10px;
   a {
     transition: all 0.5s ease;
     text-decoration: none;
@@ -21,56 +28,41 @@
     padding-right: 20px;
     padding-left: 20px;
     &:hover {
-      color: $brand-color;
       text-decoration: none;
       cursor: pointer;
     }
   }
 }
 
-.list-inline > li {
-  display: inline-block;
-  padding: 10px;
-  height: 30px;
+.text-footer {
+  color: #A6A6A6;
+  font-size: 15px;
+  margin: 0 10px;
+  i {
+    color: $brand-color;
+  }
 }
 
-  // &_linkedin {
-  //   &:hover {
-  //     a {
-  //       background-color: white;
-  //       color: #0077b5;
-  //       text-decoration: none;
-  //       padding: 0px;
-  //       margin-right: 20px;
-  //       margin-left: 20px;
-  //       font-size: 30px;
-  //     }
-  //   }
-  // }
+.linkedin {
+  :hover{
+    color: #0077b5;
+  }
+}
 
-  // &_github {
-  //   &:hover {
-  //     a {
-  //       color: #3F4347;
-  //       text-decoration: none;
-  //     }
-  //   }
-  // }
+.github {
+  :hover {
+    color: #3F4347;
+  }
+}
 
-  // &_facebook {
-  //   &:hover {
-  //     a {
-  //       color: #3b5998;
-  //       text-decoration: none;
-  //     }
-  //   }
-  // }
+.facebook {
+  :hover {
+    color: #3b5998;
+  }
+}
 
-  // &_twitter {
-  //   &:hover {
-  //     a {
-  //       color: #1da1f2;
-  //       text-decoration: none;
-  //     }
-  //   }
-  // }
+.twitter {
+  :hover {
+    color: #1da1f2;
+  }
+}

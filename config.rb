@@ -13,7 +13,7 @@ activate :autoprefixer
 ###
 # Page options, layouts, aliases and proxies
 ###
-
+activate :title, site: 'E DDLV', separator: ' | '
 # Per-page layout changes:
 #
 # With no layout
