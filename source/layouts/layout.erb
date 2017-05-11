@@ -28,14 +28,12 @@
   </head>
 
   <body class="<%= page_classes %>">
-
     <div id="wrapper">
       <%= partial "shared/navbar" %>
-      <div id="content">
-        <%= yield %>
-      </div>
+      <div id="content"><%= yield %></div>
       <%= partial "shared/footer" %>
     </div>
-
   </body>
 </html>
+
+

@@ -4,6 +4,10 @@
  * Feel free to change them and create your own
  * ------------------------------------- */
 
+html, body {
+  height: 100%;
+}
+
 // Paddings
 .padded {
   padding-top: 5em;
@@ -29,17 +33,18 @@
 }
 
 #wrapper {
-  min-height: 100%;
-  height: auto !important;
-  height: 100%;
-  position: relative;
+  // padding-bottom:50px;   /* Height of the footer */
   background-color: $grey;
+  height: auto !important;
+  // padding-top: 15px;
+  min-height:100%;
+  position: relative;
+  max-width:1280px;
 }
 
 #content {
-  padding-bottom: 65px; /* Height of the footer element */
-  padding-top: 5px;
-  min-height:80%;
+  padding-top: 15px;
+  padding-bottom:50px;   /* Height of the footer */
 }
 
 .link_wagon {

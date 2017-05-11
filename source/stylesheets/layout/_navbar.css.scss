@@ -4,7 +4,7 @@
   background: $black;
   transition: all 0.3s ease;
   display: flex;
-  height: 80px;
+  height: 70px;
   padding: 0px 30px;
   align-items: center;
   justify-content: space-between;
@@ -51,10 +51,10 @@
 }
 .navbar-wagon-link:hover {
 
-  color: $brand-color;
+  color: #8f564d;
   text-decoration: none;
-  border-top: 3px solid $brand-color;
-  border-bottom: 3px solid $brand-color;
+  border-top: 3px solid #8f564d;
+  border-bottom: 3px solid #8f564d;
   padding-top: 3px;
   padding-bottom: 3px;
   transition: 0.2s ease;
@@ -66,15 +66,15 @@
   padding: 0 20px;
   border-radius: 20em;
   line-height: 40px;
-  background-color: $brand-color;
+  background-color: #8f564d;
   color: white;
   font-size: 14px;
-  border: 2px solid $brand-color;
+  border: 2px solid #8f564d;
 }
 .navbar-wagon-button:hover {
   color: white;
-  background: $brand-color;
-  border-color: $brand-color;
+  background: #8f564d;
+  border-color: #8f564d;
 }
 
 /* Navbar search form */
@@ -114,8 +114,8 @@
 /* Navbar dropdown menu */
 .navbar-wagon-dropdown-menu {
   margin-top: 15px;
-  box-shadow: 1px 1px 4px #A6A6A6;
-  border-color: #A6A6A6;
+  box-shadow: 1px 1px 4px #8f564d;
+  border-color: #8f564d;
 }
 .navbar-wagon-dropdown-menu li > a {
   transition: color 0.3s ease;
