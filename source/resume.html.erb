@@ -7,41 +7,54 @@ title_reverse: true
   <div class="row">
     <% data.jobs.each do |job| %>
       <div class="col-xs-10 col-lg-6 col-lg-6-offset-1">
-        <div class="card-container">
 
-          <div class="card-left">
-            <div class="card-logo">
+        <div class="card">
+
+          <div class="card-top">
+
+            <div>
               <% link_to job.website do %>
                 <%= image_tag job.logo, class: "job_image" %>
               <% end %>
             </div>
-            <div class="card-subtitle">
-              <div>
-                <h2><%= job.activity %></h2>
-                <p><strong><%= job.city %></strong></p>
-              </div>
-              <div>
-                <p> <%= job.date_in %> - <%= job.date_out %></p>
-              </div>
-            </div>
-          </div>
-
-          <div class="card-right">
 
             <div class="card-company">
               <%= job.company%>
             </div>
 
-            <div class="card-title">
-              <h1><%= job.status %></h1>
+          </div>
+
+          <div class="card-down">
+
+<!--             <div class="card-left">
+
+              <div class="card-subtitle">
+                <div>
+                  <h2><%= job.activity %></h2>
+                  <p><strong><%= job.city %></strong></p>
+                </div>
+                <div>
+                  <p> <%= job.date_in %> - <%= job.date_out %></p>
+                </div>
+              </div>
             </div>
 
-            <div>
-              <p><%= job.functions %></p>
-            </div>
+            <div class="card-right">
+
+              <div class="card-title">
+                <h1><%= job.status %></h1>
+              </div>
+
+              <div>
+                <p><%= job.functions %></p>
+              </div>
+
+            </div> -->
+
           </div>
 
         </div>
+
       </div>
     <% end %>
   </div>
