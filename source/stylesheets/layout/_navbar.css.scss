@@ -25,7 +25,7 @@
 }
 
 .navbar-wagon-left {
-  display: flex;
+  display: inline;
   align-items: center;
   justify-content: space-between;
 }
@@ -35,30 +35,44 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-right: -3%;
 }
 
 /* Navbar item */
 .navbar-wagon-item {
   flex: 0 1 auto;
   cursor: pointer;
-  padding: 0 30px;
+  padding: 0 20px;
+  color: #A6A6A6;
+  font-size: 17px;
 }
 
 /* Navbar standard link */
 .navbar-wagon-link {
+  flex: 0 1 auto;
+  cursor: pointer;
+  padding: 0 20px;
   color: #A6A6A6;
   font-size: 17px;
+  &:hover {
+    color: #8f564d;
+    text-decoration: none;
+    border-top: 3px solid #8f564d;
+    border-bottom: 3px solid #8f564d;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    transition: 0.2s ease;
+  }
 }
-.navbar-wagon-link:hover {
-
-  color: #8f564d;
-  text-decoration: none;
-  border-top: 3px solid #8f564d;
-  border-bottom: 3px solid #8f564d;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  transition: 0.2s ease;
-}
+// .navbar-wagon-link:hover {
+//   color: #8f564d;
+//   text-decoration: none;
+//   border-top: 3px solid #8f564d;
+//   border-bottom: 3px solid #8f564d;
+//   padding-top: 3px;
+//   padding-bottom: 3px;
+//   transition: 0.2s ease;
+// }
 
 /* Navbar right button */
 .navbar-wagon-button {

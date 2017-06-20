@@ -1,7 +1,7 @@
 .banner {
   color: black;
   text-align: center;
-  height: calc(100vh - 120px);
+  min-height: calc(100vh - 120px);
   background-size: cover !important;
   display: flex;
   align-items: center;
@@ -10,7 +10,6 @@
   background-repeat: no-repeat;
   background-position: center center;
   margin-top: -15px;
-  margin-bottom: -15px;
 }​
 
 .banner h1 {
