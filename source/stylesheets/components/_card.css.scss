@@ -1,10 +1,10 @@
 /* Your card CSS code here */
 
 .card {
-  // min-height: 500px;
+  height: 175px;
   width: 100%;
-  margin-bottom: 15px;
-  padding: 2px;
+  margin-bottom: 10px;
+  padding: 3px;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -12,14 +12,28 @@
   box-shadow: 0 1px 2px rgba(0,0,0,0.3);
   border-radius: 10px;
   background-color: white;
+  @media (max-width: 1024px) {
+    height: 100px;
+  }
 }
 
-.card-top {
+#card-top {
   display: flex;
-  justify-content: center;
-  position: relative;
+  justify-content: space-around;
+  // position: relative;
   margin: 5px;
   align-items: center;
+}
+
+.card_image {
+  width: 100%;
+  max-width: 120px;
+  margin: 3px;
+  border-radius: 5px;
+  @media (max-width: 1024px) {
+    max-width: 70px;
+    margin: 5px;
+  }
   &:hover{
     cursor: pointer;
     opacity: 0.6;
@@ -29,22 +43,43 @@
 .card-company {
   width: 100%;
   text-align: center;
-  color: #6D3D14;
-  font-size: 35px;
-  font-weight: bold;
-  letter-spacing: 1,5px;
+  a {
+    color: #6D3D14;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1,5px;
+    text-decoration: none;
+    @media (max-width: 1024px) {
+      font-size: 14px;
+    }
+    &:hover{
+      text-decoration: none;
+      cursor: pointer;
+      opacity: 0.6;
+      color: #6D3D14;
+    }
+  }
+}
+
+#card-info {
+  text-align: center;
+  color: grey;
+  &:hover {
+    cursor: pointer;
+    opacity: 0.6;
+  }
   @media (max-width: 1024px) {
     font-size: 12px;
   }
 }
 
-
-.card-down {
+#card-content {
   display: flex;
   justify-content: center;
   position: relative;
   margin: 5px;
   align-items: center;
+  display: none;
 }
 
 .card-left {
@@ -56,7 +91,13 @@
   margin-right: 20px;
 }
 
-
+.card-right {
+  padding: 0 5px;
+  min-width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .card-subtitle {
   position: relative;
@@ -72,14 +113,6 @@
   };
 }
 
-.card-right {
-  padding: 0 5px;
-  min-width: 70%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 
 .card-title {
   display: flex;
@@ -92,28 +125,4 @@
     font-weight: bold;
     margin: 20px 0;
   };
-}
-
-
-
-
-.card-description {
-  color: grey;
-  position: absolute;
-  top: 90px;
-  left: 3px;
-  border: 5px;
-  flex: 1 0 auto;
-  margin: auto;
-  height: 100%;
-}
-
-.card-link {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    z-index: 2;
-    background: black;
-    opacity: 0;
 }

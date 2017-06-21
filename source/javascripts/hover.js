@@ -1,30 +1,39 @@
-// $(document).ready(function(){
-//   $('.navbar-wagon-link').hover(function(){
-//       $(this).css("color": "#8f564d", "text-decoration": "none", "border-top": "3px solid #8f564d", "border-bottom": "3px solid #8f564d", "padding-top": "3px", "padding-bottom": "3px", "transition": "0.2s ease");
-//       }, function(){
-//       $(this).css("color": "#A6A6A6", "font-size": "17px");
+// $(document).ready(function() {
+//   $("#card-info").each(function() {
+//     $(this).click(function() {
+//       $("#card-content").fadeToggle();
+//     });
 //   });
 // });
 
-// $(function() {
-//    $('.navbar-wagon-item').hover( function(){
-//       $(this).css('background-color', '#F00');
-//    },
-//    function(){
-//       $(this).css('background-color', '#000');
-//    });
-// });
+
+// $(document).ready(function(){
+//         $('#card').addClass('#card-content');
+
+//         $('#card-info').click(function() {
+//             var $this = $(this);
+
+//             if ($this.hasClass('#card-content')) {
+//                 $(this).removeClass('#card-content').addClass(card);
+
+//             } else {
+//                 $(this).removeClass("visible").addClass("hidden");
+//             }
+//         });
+//     });
 
 
-
-
-$(document).ready(function() {
-   $('#one').hover(
-     function() {
-       $('#two').slideDown();
-     },
-     function() {
-       $('#two').slideUp();
-     }
-   );
+$(document).ready(function () {
+  $('.card').on('click', '.showdiv', function(e) {
+      var $card = e.delegateTarget;
+      $('#card-content', $card).toggle('slide');
+      $('.showdiv', $card).hide();
+      $('.hidediv', $card).show();
+  })
+  .on('click', '.hidediv', function(e) {
+      var $card = e.delegateTarget;
+      $('#card-content', $card).toggle("slide");
+      $(".hidediv", $card).hide();
+      $(".showdiv", $card).show();
+  });
 });
